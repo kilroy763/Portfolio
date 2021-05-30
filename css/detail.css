@@ -31,6 +31,12 @@ main > div > a {
     width: 150px;
 }
 
+main > div > a:hover {
+    color: var(--main-color);
+    background-color: var(--filler);
+
+}
+
 
 @media (min-width: 801px){
 
