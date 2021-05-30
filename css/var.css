@@ -1,0 +1,72 @@
+:root {
+    --main-color: #000000;
+    --secondary-color: #3c3c3b;
+    --bar: #484848;
+    --filler: #aaaaaa;
+}
+
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+header, main{
+    margin: 0 auto;
+    max-width: 1500px;
+    padding: 0 4vw;
+}
+
+h1{
+    color: var(--main-color);
+    font-size: 2.5em;
+}
+
+p{
+    color: var(--secondary-color);
+    font-size: 1.2em;
+}
+
+svg{
+    width: 40%;
+    max-width: 150px;
+    display: block;
+    margin: 2em auto 7em auto;
+}
+
+a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+main > section{
+    margin-top: 10em;
+}
+
+
+/* Footer */
+footer{
+    background-color: var(--secondary-color);
+    padding: 0;
+    margin-top: 10em;
+ 
+}
+
+footer > h1, footer > div > a {
+    color: white;
+}
+
+
+footer > h1{
+    text-align: center;
+}
+
+footer > div {
+    display: flex;
+    text-align: center  ;
+    flex-direction: column;
+}

@@ -1,0 +1,57 @@
+
+/* Projects */
+
+section:nth-child(1) > div{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   
+   
+       
+   }
+   article{
+       background-color: var(--secondary-color);
+       border-bottom-right-radius: 5%;
+       border-bottom-left-radius: 5%;
+       max-width: 400px;
+   }
+   
+   article:hover{
+       background-color: var(--filler);
+   }
+   
+   article:hover > h2 {
+       color: var(--main-color);
+   }
+   
+   
+   article > h2{
+       text-align: center;
+       color: white;
+       margin-top: 0em;
+       padding-bottom: 1em;
+       font-size: 2.5em;
+   }
+   article  > img{
+           padding: 1em;
+           width: 90%;
+           display: block;
+           margin: 0 auto;
+   }
+   
+   section:nth-child(1) >  a:last-of-type {
+       color: white;
+       font-size: 2.5em;
+       display: block;
+       text-align: center;
+       margin: 0 auto;
+       background-color: var(--secondary-color);
+       padding: 0.4em;
+       width: 300px;
+   }
+   
+   section:nth-child(1) >  a:last-of-type:hover {
+       background-color: var(--filler);
+       color: var(--main-color);
+   }
