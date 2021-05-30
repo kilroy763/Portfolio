@@ -22,13 +22,13 @@ main > div {
 
 main > div > a {
     color: white;
-    font-size: 1.5em;
+    font-size: 1.2em;
     display: block;
     text-align: center;
     margin: 0 auto;
     background-color: var(--secondary-color);
     padding: 0.4em;
-    width: 200px;
+    width: 150px;
 }
 
 
@@ -53,6 +53,11 @@ svg{
 p{
     font-size: 1.2em;
     
+}
+
+main > div > a {
+    font-size: 1.5em;
+    width: 200px;
 }
 .headingImg {
     position: fixed;
