@@ -1,3 +1,4 @@
+
 .headingImg {
     position: relative;
     width: 100vw;
@@ -51,6 +52,7 @@ svg{
 }
 p{
     font-size: 1.2em;
+    
 }
 .headingImg {
     position: fixed;
@@ -62,8 +64,6 @@ p{
     max-height: 75vh;
     z-index: 10;
 }
-
-@media (min-width: 801px){
 main {
     padding: 2em;
     padding-top: 15em;
@@ -71,4 +71,7 @@ main {
     height: auto;
     margin-left: 50vw;
     max-height: 100%;
+    max-width: 500px;
 }
+}
+

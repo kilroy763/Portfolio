@@ -7,7 +7,10 @@
 
 *{
     font-family: 'Bebas Neue', cursive;
+
 }
+
+
 
 body{
     margin: 0;
@@ -28,6 +31,7 @@ h1{
 
 p{
     color: var(--secondary-color);
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
 }
 
@@ -51,18 +55,28 @@ main > section{
 /* Footer */
 footer{
     background-color: var(--secondary-color);
-    padding: 0;
+    padding: 0 0 2em 0 ;
     margin-top: 10em;
+
  
 }
 
 footer > h1, footer > div > a {
     color: white;
+    font-size: 1.5em;
+    margin: 0.5em;
+}
+
+footer > h1, footer > div > a:hover {
+    color: white;
+    font-size: 1.7em;
+ 
 }
 
 
 footer > h1{
     text-align: center;
+    font-size: 2.5em;
 }
 
 footer > div {
