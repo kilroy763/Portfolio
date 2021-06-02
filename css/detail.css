@@ -37,6 +37,25 @@ main > div > a:hover {
 
 }
 
+span{
+    text-decoration: none;
+    font-size: 60%;
+    margin-left: 1em;
+    color: var(--secondary-color);
+    white-space: nowrap;
+   }
+   
+h1 span a {
+    text-decoration: underline solid var(--filler);
+    font-size: inherit;
+}
+
+h1 span a:hover {
+    color:  var(--filler);
+    text-decoration: underline solid var(--main-color);
+    font-size: inherit;
+}
+
 
 @media (min-width: 801px){
 
