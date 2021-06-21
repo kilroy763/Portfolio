@@ -56,6 +56,13 @@ h1 span a:hover {
     font-size: inherit;
 }
 
+main > div {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
 
 @media (min-width: 801px){
 
@@ -69,7 +76,7 @@ header > a > div {
 svg{
     position: fixed;
     top: 0;
-    left: 50%;
+    left: 46%;
     bottom: 0;
     background-color: white;
     width: 100%;
