@@ -9,6 +9,23 @@
     z-index: -1;
 }
 
+.headingImgGlory {
+    position: relative;
+    width: 100vw;
+    max-height: 95vh;
+    max-width: 100%;
+    min-width: calc(100vw - var(--nav-width));
+    text-align: center;
+    z-index: -1;
+}
+
+.headingImgGlory img {
+    width: 90%;
+    max-width: 500px;
+    max-height: 500px;
+
+}
+
 .headingImg img {
     width: 90%;
     max-width: 500px;
@@ -101,6 +118,18 @@ main > div > a {
     max-height: 75vh;
     z-index: 10;
 }
+
+.headingImgGlory{
+    position: fixed;
+    top: 15em;
+    left: 0;
+    bottom: 0;
+    width: 50vw;
+    min-width: 0;
+    max-height: 75vh;
+    z-index: 10;
+}
+
 main {
     padding: 2em;
     padding-top: 15em;

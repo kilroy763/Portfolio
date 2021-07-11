@@ -6,15 +6,18 @@ section:nth-child(1) > div{
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: space-evenly;
-   
-   
-       
    }
+
+   h1:first-of-type{
+    text-align: center;
+}
+
    article{
        background-color: var(--secondary-color);
        border-bottom-right-radius: 5%;
        border-bottom-left-radius: 5%;
        max-width: 400px;
+     
    }
    
    article:hover{

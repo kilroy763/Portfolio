@@ -5,7 +5,7 @@ header > img{
     display: none;
 }
 
-header > p{
+.headerTekst{
     max-width: 500px;
 }
 
@@ -102,7 +102,7 @@ header > p{
 
 /* Projects */
 
-section:nth-child(2) > div{
+.projects{
  display: flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -142,7 +142,7 @@ article  > img{
         margin: 0 auto;
 }
 
-section:nth-child(2) >  a:last-of-type {
+.moreProjects{
     color: white;
     font-size: 2.5em;
     display: block;
@@ -153,9 +153,13 @@ section:nth-child(2) >  a:last-of-type {
     width: 300px;
 }
 
-section:nth-child(2) >  a:last-of-type:hover {
+.moreProjects:hover {
     background-color: var(--filler);
     color: var(--main-color);
+}
+
+h1:last-of-type{
+    text-align: center;
 }
 
 /* Media queries */
@@ -182,22 +186,14 @@ section:nth-child(2) >  a:last-of-type:hover {
     }
 }
 
-@media screen and (min-width:1000px) {
-    .heading > img {
-        right: 15vw;
- 
-    }
-    header > p{
+@media screen and (min-width:600px) {
+    .headerTekst{
         max-width: 400px;
     }
 }
 
-@media screen and (min-width:1200px) {
-    .heading > img {
-        right: 15vw;
- 
-    }
-    header > p{
+@media screen and (min-width:1000px) {
+    .headerTekst{
         max-width: 500px;
     }
 
